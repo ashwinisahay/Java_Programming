@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class ReversetheString {
+
+	public static void main(String[] args) {
+
+		System.out.println("Enter String");
+		Scanner scan = new Scanner(System.in);
+		//String scan = "New York City";
+		String Str = scan.nextLine();
+
+		StringBuilder rev = new StringBuilder(Str);
+
+		System.out.println(rev.reverse().toString());
+
+	}
+
+}
